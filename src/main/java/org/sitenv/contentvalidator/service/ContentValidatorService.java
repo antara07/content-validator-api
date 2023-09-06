@@ -40,6 +40,7 @@ public class ContentValidatorService {
 	public ArrayList<ContentValidationResult> validate(String validationObjective, String referenceFileName,
 			String ccdaFile, boolean curesUpdate, boolean svap2022, SeverityLevel severityLevel) {
 		log.info(" ***** CAME INTO THE REFERENCE VALIDATOR *****");
+		log.info("testing")
 		
 		ArrayList<ContentValidationResult> results = new ArrayList<>();
 		if (!isObjectiveValidForContentValidation(validationObjective)) {
